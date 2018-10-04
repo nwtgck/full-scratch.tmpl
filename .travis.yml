@@ -1,0 +1,8 @@
+sudo: false
+install:
+  # Install tmpl
+  - go get -u github.com/nwtgck/tmpl
+script: 
+  # Create project from generated template
+  - |
+    tmpl fill --fill-yaml="{license: mit, project_name: myproject, description: 'My Project'}"
