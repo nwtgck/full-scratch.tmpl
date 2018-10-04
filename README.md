@@ -1,5 +1,6 @@
 {{- /* **NOTE: This  template comment will be removed by [tmpl].**
 # full-scratch.tmpl
+[![Build Status](https://travis-ci.com/nwtgck/full-scratch.tmpl.svg?branch=master)](https://travis-ci.com/nwtgck/full-scratch.tmpl)
 
 Full Scratch Template
 
